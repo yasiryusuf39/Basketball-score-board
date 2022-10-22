@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40pt;
+    color: white;
+    margin: 0;
+}
+.score {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 26px 0 0 0;
+  
+}
+#home {
+    font-size: 90px;
+    color: #F94F6D;
+    margin-top: 100px;
+}
+#guest {
+      font-size: 90px;
+    color: #F94F6D;
+    margin-top: 100px;
+}
+button {
+    width: 45px;
+    height: 45px;
+    background: none;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size:18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.btn {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.ctn {
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }

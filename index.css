@@ -6,12 +6,13 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 575px;
-    height: 385px;
+    height: 415px;
     background: #1B244A;
     font-family: 'Cursed Timer ULiL', sans-serif;
+   flex-direction: column;
 }
 
 h3 {
@@ -50,6 +51,7 @@ button {
     border-radius: 5px;
     font-size:18px;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top:8px;
 }
 .btn {
     width: 155px;
@@ -62,4 +64,24 @@ button {
    flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
   }
+  .foul-btn {
+    width: 99px;
+  }
+  #reset-btn {
+    width:77px;
+  }
+  #new-container {
+    display: flex;
+    justify-content: space-between;
+    width: 455px;
+    margin: 0;
+  }
+  #foul {
+    width: 354px;
+    display: flex;
+    justify-content: space-between;
+    margin:26px 0 0 0 ;
+  }
+  

@@ -32,3 +32,20 @@ function gthree() {
     guestcount += 3
     guestScore.textContent = guestcount
 }
+
+function hfoul() {
+    homecount -= 1
+    homeScore.textContent = homecount
+}
+
+function gfoul() {
+    guestcount -= 1
+    guestScore.textContent = guestcount
+}
+
+function reset() {
+    homecount = 0
+    guestcount = 0
+    homeScore.textContent = homecount
+    guestScore.textContent = guestcount
+}
